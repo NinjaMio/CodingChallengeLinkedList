@@ -70,20 +70,6 @@ class Stack
   end
 end
 
-# def reverse_list_stack(list)
-#   new_stack = Stack.new
-
-#   # reverse by putting in stack
-#   while list != nil
-#     new_stack.push(list.value)
-#     list = list.next_node
-#   end 
-
-#   while !new_stack.empty?
-#     puts new_stack.pop
-#   end
-
-# end
 
 
 def reverse_list_stack(list)
@@ -104,7 +90,7 @@ end
 # print_values(input)
 
 
-puts "1. Reverse_list method"
+puts "1. Reverse_list method1"
 
 node1 = Node.new(37)
 node2 = Node.new(99, node1)
